@@ -107,13 +107,6 @@ finance-flow/
 
 ## 🎨 Design Philosophy
 
-### Accounting-First Approach
-As someone with an accounting background, I built FinanceFlow with professional financial standards in mind:
-- Precise decimal handling for currency
-- Clear distinction between income and expenses
-- Real-time balance calculations
-- Professional presentation of financial data
-
 ### Modern Web Standards
 - **Semantic HTML** for better accessibility and SEO
 - **CSS Variables** for maintainable, consistent styling
