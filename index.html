@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="FinanceFlow - Professional expense tracking application for managing daily finances with precision">
+    <meta name="author" content="Traianos - Accounting to Software Development Portfolio">
+    <title>FinanceFlow | Personal Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>💰 FinanceFlow</h1>
+        <p class="tagline">Manage Your Finances with Professional Precision</p>
+    </header>
+
+    <main class="container">
+        <!-- Financial Summary Section -->
+        <section class="summary-section">
+            <div class="summary-card balance-card">
+                <h3>Total Balance</h3>
+                <p class="amount" id="balance">$0.00</p>
+            </div>
+            <div class="summary-card income-card">
+                <h3>Income</h3>
+                <p class="amount income" id="income">$0.00</p>
+            </div>
+            <div class="summary-card expense-card">
+                <h3>Expenses</h3>
+                <p class="amount expense" id="expense">$0.00</p>
+            </div>
+        </section>
+
+        <!-- Transaction History Section -->
+        <section class="history-section">
+            <div class="history-header">
+                <h2>Transaction History</h2>
+                <button id="export-btn" class="btn btn-export">📊 Export CSV</button>
+            </div>
+            <ul id="transaction-list" class="transaction-list">
+                <!-- Transactions will be dynamically added here -->
+            </ul>
+        </section>
+
+        <!-- Add Transaction Form -->
+        <section class="form-section">
+            <h2>Add New Transaction</h2>
+            <form id="transaction-form">
+                <div class="form-group">
+                    <label for="text">Description</label>
+                    <input type="text" id="text" placeholder="Enter transaction description..." required
+                        autocomplete="off">
+                </div>
+                <div class="form-group">
+                    <label for="amount">Amount</label>
+                    <input type="number" id="amount" step="0.01" placeholder="Enter amount (negative for expense)"
+                        required autocomplete="off">
+                    <small class="form-hint">Positive for income, negative for expense</small>
+                </div>
+                <button type="submit" class="btn btn-primary">Add Transaction</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Built with vanilla HTML, CSS & JavaScript | Portfolio Project by Traianos</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
