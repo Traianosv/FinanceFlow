@@ -4,7 +4,7 @@
 
 FinanceFlow is a lightweight, responsive web application designed to help users manage their daily expenses with the precision of an accountant. This project showcases the transition from Accounting to Software Development, demonstrating a deep understanding of core web fundamentals and financial domain expertise.
 
-![FinanceFlow Screenshot](./screenshot.png)
+![Uploading Screenshot 2026-02-08 at 4.39.30 PM.png…]()
 
 ## 🚀 Features
 
