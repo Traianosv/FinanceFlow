@@ -153,27 +153,6 @@ const stored = localStorage.getItem('financeflow_transactions');
 transactions = stored ? JSON.parse(stored) : [];
 ```
 
-## 🌟 Why This Project?
-
-FinanceFlow serves as a portfolio project demonstrating:
-
-1. **Career Transition**: From Accounting to Software Development
-2. **Domain Expertise**: Understanding of financial concepts and accounting principles
-3. **Technical Skills**: Strong foundation in HTML, CSS, and JavaScript
-4. **Best Practices**: Clean code, proper documentation, version control
-5. **Production Quality**: Polished UI, input validation, data persistence
-
-## 🚀 Future Enhancements
-
-Potential features for future versions:
-- Category tags for expense organization
-- Date filtering and range selection
-- Visual charts and graphs (Chart.js integration)
-- Monthly/yearly financial summaries
-- Budget goals and spending alerts
-- Multi-currency support
-- Dark mode toggle
-
 ## 🤝 Contributing
 
 While this is primarily a portfolio project, suggestions and feedback are welcome! Feel free to:
@@ -185,19 +164,7 @@ While this is primarily a portfolio project, suggestions and feedback are welcom
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## 👤 Author
 
-**Traianos**
-- Transitioning from Accounting to Software Development
-- Portfolio: [Your Portfolio URL]
-- LinkedIn: [Your LinkedIn URL]
-- GitHub: [@traianosv](https://github.com/traianosv)
-
-## 🙏 Acknowledgments
-
-- Built with vanilla web technologies to demonstrate core fundamentals
-- Inspired by the need for simple, reliable personal finance tracking
-- Designed with accounting precision and user experience in mind
 
 ---
 
